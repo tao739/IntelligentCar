@@ -12,7 +12,7 @@ int main()
 	OLED_ShowNum(2,1,12345,5);
 	OLED_ShowSignedNum(2,7,-1234,4);	
 	OLED_ShowHexNum(3,1,0XAA55,4);
-	OLED_ShowBinNum(4,1,0xAA55,16);
+	
 	
 	
 
