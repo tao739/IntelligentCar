@@ -13,7 +13,7 @@
 #define IR_D8_GPIO_PIN       GPIO_Pin_0
 #define IR_D8_ADC_CHANNEL    ADC_Channel_10
 
-uint16_t AD_Value[8];					//定义用于存放8路AD转换结果的全局数组
+volatile uint16_t AD_Value[8];			//DMA会直接改这个数组，必须加volatile
 
 /**
   * 函    数：8路红外AD初始化
