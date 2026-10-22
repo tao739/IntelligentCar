@@ -740,6 +740,16 @@
               <FileType>5</FileType>
               <FilePath>.\Hardware\Serial.h</FilePath>
             </File>
+            <File>
+              <FileName>S2_IR.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Hardware\S2_IR.c</FilePath>
+            </File>
+            <File>
+              <FileName>S2_IR.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Hardware\S2_IR.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
