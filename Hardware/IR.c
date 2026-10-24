@@ -1,4 +1,4 @@
-#include "stm32f10x.h"                  // Device header
+﻿#include "stm32f10x.h"                  // Device header
 
 /**
   * 函    数：红外模块使能引脚初始化

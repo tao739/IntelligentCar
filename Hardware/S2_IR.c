@@ -1,4 +1,4 @@
-#include "S2_IR.h"
+﻿#include "S2_IR.h"
 #include "AD.h"
 
 /*

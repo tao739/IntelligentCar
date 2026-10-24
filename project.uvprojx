@@ -656,19 +656,29 @@
               <FilePath>.\System\Delay.c</FilePath>
             </File>
             <File>
-              <FileName>Delay.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\System\Delay.h</FilePath>
-            </File>
-            <File>
               <FileName>Task1.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\System\Task1.c</FilePath>
             </File>
             <File>
+              <FileName>Delay.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\System\Delay.h</FilePath>
+            </File>
+            <File>
               <FileName>Task1.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\System\Task1.h</FilePath>
+            </File>
+            <File>
+              <FileName>Timer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\System\Timer.h</FilePath>
+            </File>
+            <File>
+              <FileName>Timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\System\Timer.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -759,6 +769,16 @@
               <FileName>S2_IR.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Hardware\S2_IR.h</FilePath>
+            </File>
+            <File>
+              <FileName>Buzzer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Hardware\Buzzer.c</FilePath>
+            </File>
+            <File>
+              <FileName>Buzzer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Hardware\Buzzer.h</FilePath>
             </File>
           </Files>
         </Group>

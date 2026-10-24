@@ -1,4 +1,4 @@
-#include "stm32f10x.h"                  // Device header
+﻿#include "stm32f10x.h"                  // Device header
 
 /*
  * 已确认实物：STM32F103VET6（LQFP100）
