@@ -660,6 +660,16 @@
               <FileType>5</FileType>
               <FilePath>.\System\Delay.h</FilePath>
             </File>
+            <File>
+              <FileName>Task1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\System\Task1.c</FilePath>
+            </File>
+            <File>
+              <FileName>Task1.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\System\Task1.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

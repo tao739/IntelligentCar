@@ -19,4 +19,15 @@ void S2_IR_Init(void);
 void S2_IR_Update(void);            /* 建议每10ms调用一次 */
 const S2_IR_State *S2_IR_Get(void);
 
+/*
+ * 任务一 B 点检测用：
+ *   S2_IR_AllWhite()  -> A-B 白道确认，用来“武装”B 检测
+ *   S2_IR_AnyBlack()  -> 任意一路黑，包含 8 路全黑
+ *
+ * 注意：不要用 line_found 判断 B 点。
+ * 8 路全黑时 line_found=0，但 AnyBlack 仍然返回 1。
+ */
+uint8_t S2_IR_AnyBlack(void);
+uint8_t S2_IR_AllWhite(void);
+
 #endif

@@ -97,3 +97,21 @@ const S2_IR_State *S2_IR_Get(void)
 {
     return &s_state;
 }
+
+/*
+ * 任务一用：任意一路黑。
+ * 包含 8 路全黑；不依赖 line_found。
+ */
+uint8_t S2_IR_AnyBlack(void)
+{
+    return (s_state.active_mask != 0U) ? 1U : 0U;
+}
+
+/*
+ * 任务一用：全白。
+ * A 点黑区起步后，先等 AllWhite 连续几帧，再允许 B 检测。
+ */
+uint8_t S2_IR_AllWhite(void)
+{
+    return (s_state.active_mask == 0U) ? 1U : 0U;
+}
